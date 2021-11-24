@@ -25,20 +25,29 @@ body {
 
 .container{
     margin: auto;
-    padding: 15px;
+    padding-top: 10px;
     display: block;
 }
-.userName {
-    padding: 15px;
+.user {
     display: grid;
-    text-decoration: none;
-    color: var(--accentColor);
-    margin: auto;
-    text-align: center;
-    font-family: var(--font);
-    font-size: 20px;
-    font-weight:bold;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
 }
+.userName {
+    cursor: default;
+    display: grid;
+    font-size: 20px;
+    color: rgb(182, 8, 8);
+    font-weight: normal;
+    font-family: var(--font);
+    margin: auto;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 1x;
+    grid-gap: 1px;
+    border: solid var(--grad) 20px;
+}
+
 .bio {
     text-align: center;
     margin: auto;
@@ -47,6 +56,9 @@ body {
     font-family: var(--font);
     font-weight: bolder;
     font-size: 20px;
+}
+.bio:hover {
+    font-size: 25px;
 }
 .userPhoto {
     margin: auto;
@@ -83,9 +95,23 @@ body {
         text-decoration: none;
         color: var(--bgColor);
         margin: auto;
+        cursor: default;
         text-align: center;
         font-family: var(--font);
         font-size: 20px;
+    }
+    .footer > a{
+        display: grid;
+        font-size: 20px;
+        font-weight: lighter;
+        font-family: var(--font-2);
+        margin: auto;
+        color: var(--bgColor);
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        padding: 1x;
+        grid-gap: 1px;
+        border: solid var(--grad) 20px;
     }
 }
 .link {
@@ -112,11 +138,32 @@ body {
 .link:hover {
     background-color: var(--bgColor);
     color: var(--accentColor);
-    font-weight:bolder;
-    
+    font-weight:bolder;  
 }
-.userName,
-.bio:hover {
-    font-size: 25px;
+.footer {
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.footer > a{
+    display: grid;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: var(--font-2);
+    color: var(--bgColor);
+    margin: auto;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 1x;
+    grid-gap: 1px;
+    border: solid var(--grad) 20px;
+}
+.footer > a:hover{
+    color: rgb(70, 68, 68);
 }
 
