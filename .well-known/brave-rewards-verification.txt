@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: sunilswain.github.io
+Token: 43fa82b205a6abebbed7997b2463def2ce0845b0682c5d0333a4b254e9aaf947
