@@ -78,6 +78,12 @@ body {
         --smallDeviceBg: url("https://wallpaperaccess.com/full/4389461.jpg");
         --grad:linear-gradient(rgb(10, 10, 10), rgb(53, 41, 46), rgb(162, 118, 131), rgb(205, 155, 164), rgb(250, 195, 197));
     }
+    ::-webkit-scrollbar{
+        background-color: #313131f5;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: #e0481a;
+    }
     body {
         background-image: url("https://cdnb.artstation.com/p/assets/images/images/000/305/837/large/mugen_by_erenarik-d80ge69.jpg?1416230782");
         background-size: cover;
